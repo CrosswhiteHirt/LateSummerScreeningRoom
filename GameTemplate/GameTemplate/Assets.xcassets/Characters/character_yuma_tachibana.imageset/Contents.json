@@ -1,0 +1,13 @@
+{
+  "images": [
+    {
+      "filename": "character_yuma_tachibana.png",
+      "idiom": "universal",
+      "scale": "1x"
+    }
+  ],
+  "info": {
+    "author": "xcode",
+    "version": 1
+  }
+}
