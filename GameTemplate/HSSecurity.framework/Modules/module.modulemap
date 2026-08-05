@@ -1,0 +1,6 @@
+framework module HSSecurity {
+  umbrella header "HSSecurity.hpp"
+  export *
+
+  module * { export * }
+}

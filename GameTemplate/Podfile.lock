@@ -1,0 +1,185 @@
+PODS:
+  - AppMetricaAdSupport (6.0.0):
+    - AppMetricaCore (= 6.0.0)
+    - AppMetricaCoreExtension (= 6.0.0)
+  - AppMetricaCore (6.0.0):
+    - AppMetricaCoreUtils (= 6.0.0)
+    - AppMetricaEncodingUtils (= 6.0.0)
+    - AppMetricaFMDB (= 6.0.0)
+    - AppMetricaHostState (= 6.0.0)
+    - AppMetricaIdentifiers (= 6.0.0)
+    - AppMetricaKeychain (= 6.0.0)
+    - AppMetricaLog (= 6.0.0)
+    - AppMetricaNetwork (= 6.0.0)
+    - AppMetricaPlatform (= 6.0.0)
+    - AppMetricaProtobuf (= 6.0.0)
+    - AppMetricaProtobufUtils (= 6.0.0)
+    - AppMetricaStorageUtils (= 6.0.0)
+  - AppMetricaCoreExtension (6.0.0):
+    - AppMetricaCore (= 6.0.0)
+    - AppMetricaStorageUtils (= 6.0.0)
+  - AppMetricaCoreUtils (6.0.0):
+    - AppMetricaLog (= 6.0.0)
+  - AppMetricaEncodingUtils (6.0.0):
+    - AppMetricaCoreUtils (= 6.0.0)
+    - AppMetricaLog (= 6.0.0)
+    - AppMetricaPlatform (= 6.0.0)
+  - AppMetricaFMDB (6.0.0)
+  - AppMetricaHostState (6.0.0):
+    - AppMetricaCoreUtils (= 6.0.0)
+    - AppMetricaLog (= 6.0.0)
+  - AppMetricaIdentifiers (6.0.0):
+    - AppMetricaKeychain (= 6.0.0)
+    - AppMetricaLogSwift (= 6.0.0)
+    - AppMetricaPlatform (= 6.0.0)
+    - AppMetricaStorageUtils (= 6.0.0)
+    - AppMetricaSynchronization (= 6.0.0)
+  - AppMetricaIDSync (6.0.0):
+    - AppMetricaCore (= 6.0.0)
+    - AppMetricaCoreExtension (= 6.0.0)
+    - AppMetricaCoreUtils (= 6.0.0)
+    - AppMetricaLog (= 6.0.0)
+    - AppMetricaNetwork (= 6.0.0)
+    - AppMetricaPlatform (= 6.0.0)
+    - AppMetricaStorageUtils (= 6.0.0)
+  - AppMetricaKeychain (6.0.0):
+    - AppMetricaCoreUtils (= 6.0.0)
+    - AppMetricaLog (= 6.0.0)
+    - AppMetricaStorageUtils (= 6.0.0)
+  - AppMetricaLibraryAdapter (6.0.0):
+    - AppMetricaCore (= 6.0.0)
+    - AppMetricaCoreExtension (= 6.0.0)
+  - AppMetricaLog (6.0.0)
+  - AppMetricaLogSwift (6.0.0):
+    - AppMetricaLog (= 6.0.0)
+  - AppMetricaNetwork (6.0.0):
+    - AppMetricaCoreUtils (= 6.0.0)
+    - AppMetricaLog (= 6.0.0)
+    - AppMetricaPlatform (= 6.0.0)
+  - AppMetricaPlatform (6.0.0):
+    - AppMetricaCoreUtils (= 6.0.0)
+    - AppMetricaLog (= 6.0.0)
+  - AppMetricaProtobuf (6.0.0)
+  - AppMetricaProtobufUtils (6.0.0):
+    - AppMetricaProtobuf (= 6.0.0)
+  - AppMetricaStorageUtils (6.0.0):
+    - AppMetricaCoreUtils (= 6.0.0)
+    - AppMetricaLog (= 6.0.0)
+  - AppMetricaSynchronization (6.0.0):
+    - AppMetricaLogSwift (= 6.0.0)
+  - ChartboostSDK (9.12.0)
+  - DivKit (32.49.0):
+    - DivKit_LayoutKit (= 32.49.0)
+    - DivKit_Serialization (= 32.49.0)
+    - VGSL (~> 7.21)
+  - DivKit_LayoutKit (32.49.0):
+    - DivKit_LayoutKitInterface (= 32.49.0)
+    - VGSL (~> 7.21)
+  - DivKit_LayoutKitInterface (32.49.0):
+    - VGSL (~> 7.21)
+  - DivKit_Serialization (32.49.0):
+    - VGSL (~> 7.21)
+  - DivKitBinaryCompatibilityFacade (5.3.0):
+    - DivKit (~> 32.14)
+  - InMobiSDK (11.3.0)
+  - VGSL (7.21.0):
+    - VGSLFundamentals (= 7.21.0)
+    - VGSLNetworking (= 7.21.0)
+    - VGSLUI (= 7.21.0)
+  - VGSLFundamentals (7.21.0)
+  - VGSLNetworking (7.21.0):
+    - VGSLFundamentals (= 7.21.0)
+    - VGSLUI (= 7.21.0)
+  - VGSLUI (7.21.0):
+    - VGSLFundamentals (= 7.21.0)
+  - VungleAds (7.0.0)
+  - YandexMobileAds (8.0.0):
+    - AppMetricaAdSupport (~> 6.0.0)
+    - AppMetricaCore (~> 6.0.0)
+    - AppMetricaIDSync (~> 6.0.0)
+    - AppMetricaLibraryAdapter (~> 6.0.0)
+    - DivKitBinaryCompatibilityFacade (~> 5.3.0)
+  - YandexMobileAdsInstream (0.70.0):
+    - YandexMobileAds (= 8.0.0)
+
+DEPENDENCIES:
+  - ChartboostSDK
+  - InMobiSDK
+  - VungleAds (= 7.0.0)
+  - YandexMobileAds (= 8.0.0)
+  - YandexMobileAdsInstream (= 0.70.0)
+
+SPEC REPOS:
+  trunk:
+    - AppMetricaAdSupport
+    - AppMetricaCore
+    - AppMetricaCoreExtension
+    - AppMetricaCoreUtils
+    - AppMetricaEncodingUtils
+    - AppMetricaFMDB
+    - AppMetricaHostState
+    - AppMetricaIdentifiers
+    - AppMetricaIDSync
+    - AppMetricaKeychain
+    - AppMetricaLibraryAdapter
+    - AppMetricaLog
+    - AppMetricaLogSwift
+    - AppMetricaNetwork
+    - AppMetricaPlatform
+    - AppMetricaProtobuf
+    - AppMetricaProtobufUtils
+    - AppMetricaStorageUtils
+    - AppMetricaSynchronization
+    - ChartboostSDK
+    - DivKit
+    - DivKit_LayoutKit
+    - DivKit_LayoutKitInterface
+    - DivKit_Serialization
+    - DivKitBinaryCompatibilityFacade
+    - InMobiSDK
+    - VGSL
+    - VGSLFundamentals
+    - VGSLNetworking
+    - VGSLUI
+    - VungleAds
+    - YandexMobileAds
+    - YandexMobileAdsInstream
+
+SPEC CHECKSUMS:
+  AppMetricaAdSupport: 43a4d1509cdbfe712fb3f009fe60d3a6481816a0
+  AppMetricaCore: dae62fe7f95cd665b142218f3d94cf63262c195b
+  AppMetricaCoreExtension: 72da13ba849d4676f276ab86ff429bdf700eadc3
+  AppMetricaCoreUtils: 5e7c91cbafe0225dec2ded2bb3a806256e2ef791
+  AppMetricaEncodingUtils: a67df57f752dbbb174beea18f1de52d24853d834
+  AppMetricaFMDB: a3d8e45a5a85bec23a997be4469b92ab355a4df5
+  AppMetricaHostState: 1ac2ab5880aa30a358f55a044e57354dd8f9062f
+  AppMetricaIdentifiers: 00061e0cdcb371b74343a5491f54adfc1d470b25
+  AppMetricaIDSync: 91b403172ad78da3574c691ed34c25f69c2296ee
+  AppMetricaKeychain: 9ec64d877b8a3f6e823f3bbeef5e4086aa456686
+  AppMetricaLibraryAdapter: 56fa0f988850051d10f9ac3b6b9ace7bb6aa8fd7
+  AppMetricaLog: edd74df81c7557439c36c566989982f4c735e4d6
+  AppMetricaLogSwift: 3d2d4a3cbc33a680389b416a1c6a82ef4134da10
+  AppMetricaNetwork: 3dc6d768d4e932c3697c9c2c9a768de54e62059b
+  AppMetricaPlatform: 041a7b251ea1689e26626d9db8f331af1afe5bad
+  AppMetricaProtobuf: 01b141a164fa7277f641a29f30d5e571ea3d471a
+  AppMetricaProtobufUtils: dc48c7b84f3a1ef86ea218bbd97480ea9da4d3bc
+  AppMetricaStorageUtils: 78071115b9f5468d9e3b8184c456428cd9ee1dbd
+  AppMetricaSynchronization: 909bab97c61c0c147a435ce1620e4c8069e2d6b3
+  ChartboostSDK: 1a74d11450b2f5de529edc397ca434f11701232a
+  DivKit: 12341c074d850ec3560d16d7d60b825337f5243b
+  DivKit_LayoutKit: e2a5c1fc2c4c822adfd42982fe45e3ddab0792ac
+  DivKit_LayoutKitInterface: 38fff18ad1028e452401b70ea5189d9f458c9336
+  DivKit_Serialization: 38b341aa36346f00dcd20d9af945ae6b694c7a17
+  DivKitBinaryCompatibilityFacade: fc2284a2edea4d65aa0966006ea63274eb9f721b
+  InMobiSDK: a25c208dcc6fc6d9b228f34a4643712f37923208
+  VGSL: 0573c2b82b05aadcba4836398ce3778d271bfd13
+  VGSLFundamentals: 3a081684c1a5df5800bf88aca8a9bdff2c10cfd9
+  VGSLNetworking: 0ea8a335bc4f4eba3f6123ffe441cf1c08f267f2
+  VGSLUI: 249a16cccdb75f1a5a1733894d013bca76e27c5e
+  VungleAds: f3bc7f1109c56e455777999661faedbb7c01483f
+  YandexMobileAds: ca6c63c4148ae87fefc1821d0b466ea567069d5b
+  YandexMobileAdsInstream: 325843236c7e6d8ee69121c0ee6399dc21683073
+
+PODFILE CHECKSUM: 172eb2fb087fde60a4edf7c0d7036bc85b0b7423
+
+COCOAPODS: 1.16.2

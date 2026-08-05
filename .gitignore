@@ -1,0 +1,37 @@
+# Xcode and CocoaPods generated files
+GameTemplate/Pods/
+GameTemplate/build/
+**/xcuserdata/
+**/*.xcuserstate
+DerivedData/
+
+# macOS and editor caches
+.DS_Store
+.AppleDouble
+.LSOverride
+Tools/__pycache__/
+*.py[cod]
+.story_translation_cache.json
+
+# Local production/reference material excluded from the public repository
+material/
+resource/iPhone/
+resource/iPad/
+/*.docx
+/*.rtf
+/*提示词*.md
+/*方案*.md
+/*攻略*.docx
+/*调度表*.docx
+/*索引*.md
+/*清单*.md
+/build_*.py
+
+# Local secrets and build outputs
+*.p12
+*.mobileprovision
+*.cer
+*.key
+*.pem
+*.ipa
+*.app

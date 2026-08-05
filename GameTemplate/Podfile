@@ -1,0 +1,23 @@
+platform :ios, '13.0'
+
+target 'GameTemplate' do
+  use_frameworks!
+
+  # Match the supplied starter template. The SDK receives its production
+  # placement configuration from the ad-units endpoint at runtime.
+  pod 'ChartboostSDK'
+  pod 'YandexMobileAds', '8.0.0'
+  pod 'YandexMobileAdsInstream', '0.70.0'
+  pod 'VungleAds', '7.0.0'
+  pod 'InMobiSDK'
+  
+  target 'GameTemplateTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'GameTemplateUITests' do
+    # Pods for testing
+  end
+
+end

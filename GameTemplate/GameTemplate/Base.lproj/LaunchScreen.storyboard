@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="26000" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="26000"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+    </dependencies>
+    <scenes>
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" image="environment_home_background" translatesAutoresizingMaskIntoConstraints="NO" id="bg-image">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="shade-view">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.24" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="LaunchTitle" translatesAutoresizingMaskIntoConstraints="NO" id="title-image">
+                                <rect key="frame" x="26" y="142" width="341" height="95"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" secondItem="title-image" secondAttribute="width" multiplier="5:18" id="title-ratio"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" text="THE END-OF-SUMMER SCREENING ROOM" textAlignment="center" lineBreakMode="tailTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="launch-title-main">
+                                <fontDescription key="fontDescription" type="system" weight="bold" pointSize="14"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" text="A CINEMATIC MYSTERY OF MEMORY AND FILM" textAlignment="center" lineBreakMode="tailTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="launch-title-subtitle">
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="10"/>
+                                <color key="textColor" red="0.72" green="0.88" blue="0.96" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" red="0.02" green="0.07" blue="0.11" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="bg-image" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="bg-leading"/>
+                            <constraint firstAttribute="trailing" secondItem="bg-image" secondAttribute="trailing" id="bg-trailing"/>
+                            <constraint firstItem="bg-image" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="bg-top"/>
+                            <constraint firstAttribute="bottom" secondItem="bg-image" secondAttribute="bottom" id="bg-bottom"/>
+                            <constraint firstItem="shade-view" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="shade-leading"/>
+                            <constraint firstAttribute="trailing" secondItem="shade-view" secondAttribute="trailing" id="shade-trailing"/>
+                            <constraint firstItem="shade-view" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="shade-top"/>
+                            <constraint firstAttribute="bottom" secondItem="shade-view" secondAttribute="bottom" id="shade-bottom"/>
+                            <constraint firstItem="title-image" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="title-center"/>
+                            <constraint firstItem="title-image" firstAttribute="width" secondItem="6Tk-OE-BBY" secondAttribute="width" multiplier="0.87" id="title-width"/>
+                            <constraint firstItem="title-image" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="82" id="title-top"/>
+                            <constraint firstItem="launch-title-main" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="launch-main-leading"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="launch-title-main" secondAttribute="trailing" constant="16" id="launch-main-trailing"/>
+                            <constraint firstItem="launch-title-main" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="88" id="launch-main-top"/>
+                            <constraint firstItem="launch-title-subtitle" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="launch-sub-leading"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="launch-title-subtitle" secondAttribute="trailing" constant="16" id="launch-sub-trailing"/>
+                            <constraint firstItem="launch-title-subtitle" firstAttribute="top" secondItem="launch-title-main" secondAttribute="bottom" constant="5" id="launch-sub-top"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="LaunchTitle" width="900" height="250"/>
+        <image name="environment_home_background" width="941" height="1672"/>
+    </resources>
+</document>
