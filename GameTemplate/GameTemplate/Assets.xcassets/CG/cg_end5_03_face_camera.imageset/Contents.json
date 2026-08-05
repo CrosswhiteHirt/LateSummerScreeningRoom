@@ -1,0 +1,13 @@
+{
+  "images" : [
+    {
+      "filename" : "cg_end5_03_face_camera.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

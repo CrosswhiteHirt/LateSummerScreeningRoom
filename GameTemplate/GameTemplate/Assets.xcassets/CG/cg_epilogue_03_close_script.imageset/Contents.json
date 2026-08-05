@@ -1,0 +1,13 @@
+{
+  "images" : [
+    {
+      "filename" : "cg_epilogue_03_close_script.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
