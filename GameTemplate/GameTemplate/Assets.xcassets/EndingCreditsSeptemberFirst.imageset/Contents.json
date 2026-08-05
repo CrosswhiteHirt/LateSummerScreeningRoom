@@ -1,0 +1,13 @@
+{
+  "images" : [
+    {
+      "filename" : "september_first_group_photo.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
